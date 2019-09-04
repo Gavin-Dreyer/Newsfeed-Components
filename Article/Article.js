@@ -101,7 +101,25 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
-  }
+  },
+  {
+    title: 'Navi',
+    date: 'Sept 9th, 2019',
+    firstParagraph: `Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen!`,
+
+    secondParagraph: `Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen!`,
+
+    thirdParagraph: `Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen! Listen!`
+  },
+  {
+    title: 'Star Fox',
+    date: 'Sept 9th, 2019',
+    firstParagraph: `Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll!`,
+
+    secondParagraph: `Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll!`,
+
+    thirdParagraph: `Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll! Do a barrel roll!`
+  },
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
