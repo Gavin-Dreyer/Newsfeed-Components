@@ -178,13 +178,56 @@ function articleFunction(title, date, firstParagraph, secondParagraph, thirdPara
   articleDate.classList.add('date');
   articleButton.classList.add('expandButton');
 
-  articleButton.addEventListener('click', e => {
-    articleContainer.classList.toggle('article-open');
+  // articleButton.addEventListener('click', e => {
+  //   articleContainer.classList.toggle('article-open');
+  // })
+
+
+  // articleButton.addEventListener('load', function() {
+  //   TweenMax.to('.article', 1, {scaleY: 2, height: '60vh'})
+  // })
+  
+  if (articleButton.addEventListener('click', function() {
+    TweenMax.to('.article', 1, {scaleX: 1.25, height: '60vh'})
+  })) {
+  articleButton.addEventListener('click', function() {
+    TweenMax.to('.article', 1, {scaleX: 1.25, height: '60vh'})
   })
+} else if (articleButton.addEventListener('dblclick', function() {
+  TweenMax.to('.article', 3, {scaleX: 0, scaleY: 0})
+})) {
+  articleButton.addEventListener('dblclick', function() {
+    TweenMax.to('.article', 3, {scaleX: 0, scaleY: 0})
+  })
+}
+  
+  // articleButton.addEventListener('mouseenter', function() {
+  //   TweenMax.to('.article', 1, {scaleX: 1, scaleY: 1})
+  // })
+
+  // function(articleContainer) {
+  //     articleContainer.forEach(item => {
+  //       item.classList.add('1')
+  //     })
+  // }
+
+  
+
+
+
+
+
 
   return articleContainer
+
+
 }
 
 const articleArray = data.map(item => {
   container.append(articleFunction(item.title, item.date, item.firstParagraph, item.secondParagraph, item.thirdParagraph))
+
 })
+
+
+
+
